@@ -18,9 +18,9 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ProducerConsumerMonitorBuffer<T> implements PCBuffer<T> {
 
     private int capacity;
-    private Lock lock = new ReentrantLock();
-    private Condition notEmpty = lock.newCondition();
-    private Condition notFull = lock.newCondition();
+    private Lock monitor = new ReentrantLock(true);
+    private Condition notEmpty = monitor.newCondition();
+    private Condition notFull = monitor.newCondition();
     private List<T> storage = new LinkedList<T>();
 
     public ProducerConsumerMonitorBuffer(int capacity) {
@@ -29,50 +29,56 @@ public class ProducerConsumerMonitorBuffer<T> implements PCBuffer<T> {
 
     @Override
     public void put(T item) {
-        if (storage.size() == capacity) {
+        monitor.lock();
+        try {
+            while (storage.size() == capacity)
+                notFull.await();
+            storage.add(item);
+            notEmpty.signal();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            monitor.unlock();
+        }
+    }
+
+    @Override
+    public T get() throws InterruptedException {
+        monitor.lock();
+        try {
+            while (storage.size() == 0)
+                notEmpty.await();
+            T item = storage.remove(storage.size()-1);
+            notFull.signal();
+            return item;
+        } finally {
+            monitor.unlock();
+        }
+    }
+        @Override
+        public int count() {
+            monitor.lock();
             try {
-                notFull.wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+                return storage.size();
+            } finally {
+                monitor.unlock();
             }
         }
-        storage.add(item);
-        notEmpty.signal();
-    }
 
-    @Override
-    public T get() {
-        if (storage.size() == 0) {
-            try {
-                notEmpty.wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+
+    public int getCapacity () {
+            return capacity;
         }
-        T item = storage.remove(storage.size() - 1);
-        notFull.signal();
 
-        return item;
+        public void setCapacity ( int capacity){
+            this.capacity = capacity;
+        }
+
+        @Override
+        public String toString () {
+            return "ProducerConsumerMonitorBuffer{" +
+                    "storage=" + storage.toString() +
+                    '}';
+        }
+
     }
-
-    @Override
-    public int count() {
-        return storage.size();
-    }
-
-    public int getCapacity() {
-        return capacity;
-    }
-
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
-    }
-
-    @Override
-    public String toString() {
-        return "ProducerConsumerMonitorBuffer{" +
-                "storage=" + storage.toString() +
-                '}';
-    }
-
-}

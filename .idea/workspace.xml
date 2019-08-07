@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68423f8c-9078-4fbb-8e46-5cfa376da3b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/PCBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/PCMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/MonitorClassTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/ProducerConsumerMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/Buffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/JMBoundedBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/LMBoundedBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/PC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/ProducerConsumerMonitorBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/ProducerConsumerMonitorBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Buffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/JMBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/JMBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/PC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/PCBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/PCBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/PCMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/PCMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,116 +36,133 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#3011#3012#0" expanded="true" />
-                <element signature="e#3048#3049#0" expanded="true" />
-                <element signature="e#3080#3081#0" expanded="true" />
-                <element signature="e#3111#3112#0" expanded="true" />
-                <element signature="e#3156#3157#0" expanded="true" />
-                <element signature="e#3196#3197#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tests/PCMainTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#245#253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ProducersConsumersBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/PCBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1807">
-              <caret line="889" column="25" selection-start-line="889" selection-start-column="25" selection-end-line="889" selection-end-column="25" />
-              <folding>
-                <element signature="e#33790#33791#0" expanded="true" />
-                <element signature="e#33855#33856#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumersMonitor/Buffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumersMonitor/JMBoundedBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumersMonitor/PC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumersMonitor/Producer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="50" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#700#701#0" expanded="true" />
+                    <element signature="e#740#741#0" expanded="true" />
+                    <element signature="e#1844#1845#0" expanded="true" />
+                    <element signature="e#1883#1884#0" expanded="true" />
+                    <element signature="e#1933#1934#0" expanded="true" />
+                    <element signature="e#1981#1982#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/tests/MonitorClassTemplate.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="578">
+                  <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="9" column="23" selection-start-line="9" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/PC.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/SBuffer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/JMBoundedBuffer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/PC.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Item.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tests/PCMainTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="461">
+                  <caret line="81" selection-start-line="81" selection-end-line="81" />
+                  <folding>
+                    <element signature="e#245#253#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tests/ProducersConsumersBlockingQueue.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="410">
+                  <caret line="51" column="5" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -188,8 +226,17 @@
         <option value="$PROJECT_DIR$/src/tests/ProducerConsumerMonitor.java" />
         <option value="$PROJECT_DIR$/src/tests/ProducerConsumersMonitor/PCBuffer.java" />
         <option value="$PROJECT_DIR$/src/tests/PCBuffer.java" />
-        <option value="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" />
+        <option value="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Buffer.java" />
+        <option value="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Item.java" />
+        <option value="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/JMBoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/PC.java" />
+        <option value="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Producer.java" />
         <option value="$PROJECT_DIR$/src/tests/PCMainTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" />
+        <option value="$PROJECT_DIR$/src/tests/MonitorClassTamplate.java" />
+        <option value="$PROJECT_DIR$/src/tests/MonitorClassTemplate.java" />
       </list>
     </option>
   </component>
@@ -227,14 +274,13 @@
               <item name="ParallelProgrammingUsefulCodes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ParallelProgrammingUsefulCodes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducerConsumerMonitor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ParallelProgrammingUsefulCodes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ParallelProgrammingUsefulCodes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="ProducerConsumersMonitor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +291,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565172590629" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565183117798" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -332,18 +378,18 @@
       <option name="presentableId" value="Default" />
       <updated>1565124612693</updated>
       <workItem from="1565124616353" duration="548000" />
-      <workItem from="1565167217514" duration="5165000" />
+      <workItem from="1565167217514" duration="10466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5713000" />
+    <option name="totallyTimeSpent" value="11014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -351,11 +397,11 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32917964" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29698858" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23883697" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -379,6 +425,43 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Codota" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.45171338" />
+      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.3997923" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Code Review" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Codota" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -485,27 +568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/PC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/SBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,6 +712,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/SBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/JMBoundedBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/ProducersConsumersBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -653,30 +764,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java">
+    <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/PC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#3011#3012#0" expanded="true" />
-            <element signature="e#3048#3049#0" expanded="true" />
-            <element signature="e#3080#3081#0" expanded="true" />
-            <element signature="e#3111#3112#0" expanded="true" />
-            <element signature="e#3156#3157#0" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/PCMainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="461">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="e#245#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/PC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="23" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/MonitorClassTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

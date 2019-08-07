@@ -1,3 +1,5 @@
+package Monitors.ProducerConsumerMonitor;
+
 interface Buffer<T> {
     // add item to buffer; block if full
     void put(T item) throws InterruptedException;

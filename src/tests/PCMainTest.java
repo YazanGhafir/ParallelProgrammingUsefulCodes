@@ -15,7 +15,6 @@ public class PCMainTest {
                 int i = 0;
                 while (true) {
                     Buffer.put("s" + i++);
-                    Buffer.put("s" + i++);
 
                 }
             }
@@ -25,7 +24,11 @@ public class PCMainTest {
             @Override
             public void run() {
                 while (true) {
-                    Buffer.get();
+                    try {
+                        Buffer.get();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         }
@@ -75,7 +78,7 @@ public class PCMainTest {
                 consumer.start();
 
                 while (true) {
-                    if (Buffer.count() > 0)
+                    //if (Buffer.count() > 0)
                     System.out.println(Buffer.toString());
                 }
             }

@@ -6,7 +6,7 @@ public interface PCBuffer <T> {
     void put(T item);
 
     //remove item from the buffer, block if empty
-    T get();
+    T get() throws InterruptedException;
 
     //number of items in buffer
     int count();
