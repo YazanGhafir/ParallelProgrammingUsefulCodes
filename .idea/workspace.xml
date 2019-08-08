@@ -2,29 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68423f8c-9078-4fbb-8e46-5cfa376da3b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/MonitorClassTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBufferSecondAttempt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/Buffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/JMBoundedBuffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/LMBoundedBuffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/PC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCBuffer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Consumer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Producer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/ProducerConsumerMonitorBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/ProducerConsumerMonitorBuffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/JMBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/JMBoundedBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/PC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/PCBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/PCBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/MonitorClassTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/MonitorClassTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/PCMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/PCMainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" afterDir="false" />
     </list>
@@ -35,40 +25,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ParallelProgrammingUsefulCodes$QuickSort.ic" NAME="QuickSort Coverage Results" MODIFIED="1565284113869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ParallelQuickSort.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.40835267">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="50" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#700#701#0" expanded="true" />
-                    <element signature="e#740#741#0" expanded="true" />
-                    <element signature="e#1844#1845#0" expanded="true" />
-                    <element signature="e#1883#1884#0" expanded="true" />
-                    <element signature="e#1933#1934#0" expanded="true" />
-                    <element signature="e#1981#1982#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/tests/MonitorClassTemplate.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +44,22 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/PC.java">
+            <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="98" selection-start-line="98" selection-end-line="98" />
+                  <folding>
+                    <element signature="e#2729#2730#0" expanded="true" />
+                    <element signature="e#2761#2762#0" expanded="true" />
+                    <element signature="e#3165#3166#0" expanded="true" />
+                    <element signature="e#3197#3198#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Consumer.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="17">
                   <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -88,22 +68,37 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/SBuffer.java">
+            <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Buffer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="17">
+                  <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/JMBoundedBuffer.java">
+            <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSort.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/PC.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-323">
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
@@ -118,21 +113,12 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Item.java">
+            <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/tests/PCMainTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="461">
-                  <caret line="81" selection-start-line="81" selection-end-line="81" />
+                <state relative-caret-position="612">
+                  <caret line="36" selection-start-line="36" selection-end-line="36" />
                   <folding>
-                    <element signature="e#245#253#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -152,10 +138,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java">
+            <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="410">
-                  <caret line="51" column="5" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
+                <state relative-caret-position="170">
+                  <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
                 </state>
               </provider>
             </entry>
@@ -188,9 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Philosophers/BaseTable.java" />
-        <option value="$PROJECT_DIR$/src/Philosophers/AsymmetricTable.java" />
-        <option value="$PROJECT_DIR$/src/Philosophers/Dining.java" />
         <option value="$PROJECT_DIR$/src/Philosophers/Philosopher.java" />
         <option value="$PROJECT_DIR$/src/Philosophers/SeatingTable.java" />
         <option value="$PROJECT_DIR$/src/Philosophers/Table.java" />
@@ -233,10 +216,15 @@
         <option value="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java" />
         <option value="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/PC.java" />
         <option value="$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/Producer.java" />
-        <option value="$PROJECT_DIR$/src/tests/PCMainTest.java" />
-        <option value="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" />
         <option value="$PROJECT_DIR$/src/tests/MonitorClassTamplate.java" />
         <option value="$PROJECT_DIR$/src/tests/MonitorClassTemplate.java" />
+        <option value="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBufferSecondAttempt.java" />
+        <option value="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" />
+        <option value="$PROJECT_DIR$/src/tests/PCMainTest.java" />
+        <option value="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java" />
+        <option value="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java" />
+        <option value="$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java" />
       </list>
     </option>
   </component>
@@ -256,8 +244,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,13 +262,13 @@
               <item name="ParallelProgrammingUsefulCodes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ParallelProgrammingUsefulCodes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProducerConsumerMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="ParallelQuickSort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ParallelProgrammingUsefulCodes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ParallelProgrammingUsefulCodes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducerConsumer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,14 +279,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565183117798" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565290512750" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../parallell programing examples project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="tests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tests" />
     </key>
   </component>
@@ -314,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PCMainTest">
+  <component name="RunManager" selected="Application.QuickSortTest">
     <configuration name="PCMainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.PCMainTest" />
       <module name="parallel programing codes" />
@@ -341,12 +332,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReadersWriters.RW" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParallelQuickSort.QuickSort" />
       <module name="parallel programing codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReadersWriters.*" />
+          <option name="PATTERN" value="ParallelQuickSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParallelQuickSort.QuickSort2" />
+      <module name="parallel programing codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ParallelQuickSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParallelQuickSort.QuickSortTest" />
+      <module name="parallel programing codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ParallelQuickSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,15 +372,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RW" />
       <item itemvalue="Application.ProducerConsumerMonitorBuffer" />
       <item itemvalue="Application.PCMainTest" />
+      <item itemvalue="Application.QuickSortTest" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.QuickSort2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSortTest" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.QuickSort2" />
         <item itemvalue="Application.PCMainTest" />
         <item itemvalue="Application.ProducerConsumerMonitorBuffer" />
-        <item itemvalue="Application.RW" />
       </list>
     </recent_temporary>
   </component>
@@ -378,18 +399,19 @@
       <option name="presentableId" value="Default" />
       <updated>1565124612693</updated>
       <workItem from="1565124616353" duration="548000" />
-      <workItem from="1565167217514" duration="10466000" />
+      <workItem from="1565167217514" duration="13687000" />
+      <workItem from="1565257043554" duration="19499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11014000" />
+    <option name="totallyTimeSpent" value="33734000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-6" y="-6" width="1513" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11134021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -397,22 +419,23 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Messages" weight="0.32917964" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23883697" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30464327" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32616082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32917964" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Code Review" order="10" />
+      <window_info anchor="bottom" id="Code Review" order="10" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="bottom" id="Statistic" order="12" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32842582" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.15257733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -426,7 +449,7 @@
       <window_info anchor="right" id="Codota" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22542955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -434,33 +457,34 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.45171338" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.3997923" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
-      <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Code Review" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Codota" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30464327" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32616082" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32917964" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Code Review" order="10" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="12" weight="0.32917964" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32842582" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.15257733" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Codota" order="11" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,14 +493,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSort.java</url>
+          <line>45</line>
+          <properties class="ParallelQuickSort.QuickSort" method="sort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Philosophers/BaseTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Philosophers/AsymmetricTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -575,20 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/BinarySearchTreeWithRotate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -607,13 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -663,10 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1807">
           <caret line="889" column="25" selection-start-line="889" selection-start-column="25" selection-end-line="889" selection-end-column="25" />
-          <folding>
-            <element signature="e#33790#33791#0" expanded="true" />
-            <element signature="e#33855#33856#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,6 +756,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1953#1954#0" expanded="true" />
+            <element signature="e#1993#1994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBufferSecondAttempt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding>
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/MonitorClassTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/JMBoundedBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -764,20 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/PC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/PCMainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="e#245#253#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="828">
+          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -788,22 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#1981#1982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -811,13 +831,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/MonitorClassTemplate.java">
+    <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/PC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="-323">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
         </state>
       </provider>
     </entry>

@@ -6,8 +6,8 @@ public class PCMainTest {
 
     public static void main(String[] args) {
 
-
-        ProducerConsumerMonitorBuffer<String> Buffer = new ProducerConsumerMonitorBuffer<String>(10);
+        //ProducerConsumerMonitorBuffer<String> Buffer = new ProducerConsumerMonitorBuffer<String>(10);
+        ProducerConsumerMonitorBufferSecondAttempt<String> Buffer = new ProducerConsumerMonitorBufferSecondAttempt<String>(20);
 
         class Producer extends Thread {
             @Override
@@ -54,20 +54,22 @@ public class PCMainTest {
         /**
          * runs the war of threads
          *
-         new Thread(new Runnable() {
-        @Override public void run() {
-        for (Thread producer : producers)
-        producer.start();
-        for (Thread consumer : consumers)
-        consumer.start();
-        while (true) {
-        if (Buffer.count() > 997)
-        System.out.println(Buffer.toString());
-        }
-        }
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                for (Thread producer : producers)
+                    producer.start();
+                for (Thread consumer : consumers)
+                    consumer.start();
+                while (true) {
+                    if (Buffer.count() > 17)
+                        System.out.println(Buffer.toString());
+                }
+            }
         }).start();
-         }
-         */
+*/
+
+
 
         new Thread(new Runnable() {
             @Override
@@ -78,7 +80,7 @@ public class PCMainTest {
                 consumer.start();
 
                 while (true) {
-                    //if (Buffer.count() > 0)
+                    if (Buffer.count() > 17)
                     System.out.println(Buffer.toString());
                 }
             }

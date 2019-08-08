@@ -48,37 +48,41 @@ public class ProducerConsumerMonitorBuffer<T> implements PCBuffer<T> {
         try {
             while (storage.size() == 0)
                 notEmpty.await();
-            T item = storage.remove(storage.size()-1);
+            T item = storage.remove(storage.size() - 1);
             notFull.signal();
             return item;
         } finally {
             monitor.unlock();
         }
     }
-        @Override
-        public int count() {
-            monitor.lock();
-            try {
-                return storage.size();
-            } finally {
-                monitor.unlock();
-            }
+
+    @Override
+    public int count() {
+        monitor.lock();
+        try {
+            return storage.size();
+        } finally {
+            monitor.unlock();
         }
-
-
-    public int getCapacity () {
-            return capacity;
-        }
-
-        public void setCapacity ( int capacity){
-            this.capacity = capacity;
-        }
-
-        @Override
-        public String toString () {
-            return "ProducerConsumerMonitorBuffer{" +
-                    "storage=" + storage.toString() +
-                    '}';
-        }
-
     }
+
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+
+    @Override
+    public String toString() {
+        monitor.lock();
+        String s = "ProducerConsumerMonitorBuffer{" +
+                "storage=" + storage.toString() +
+                '}';
+        monitor.unlock();
+        return s;
+    }
+
+}
