@@ -10,11 +10,11 @@ public class QuickSort2 <T extends Comparable<T>> {
      *
      * @param arr the array to be sorted
      */
-    public static <T extends Comparable<T>> void quickSort(T[] arr) {
+    public static <T extends Comparable<T>> void sort(T[] arr) {
         if (arr == null || arr.length == 0)
             return;
         else
-            quickSort(arr, 0, arr.length - 1);
+            sort(arr, 0, arr.length - 1);
     }
 
     /**
@@ -35,7 +35,7 @@ public class QuickSort2 <T extends Comparable<T>> {
         return -1;
     }
 
-    private static <T extends Comparable<T>> void quickSort(T[] arr, int low, int high){
+    private static <T extends Comparable<T>> void sort(T[] arr, int low, int high){
         if (low >= high)
             return;
 
@@ -65,10 +65,10 @@ public class QuickSort2 <T extends Comparable<T>> {
 
             // recursively sort two sub parts
             if (low < j)
-                quickSort(arr, low, j);
+                sort(arr, low, j);
 
             if (high > i)
-                quickSort(arr, i, high);
+                sort(arr, i, high);
         }
     }
 }

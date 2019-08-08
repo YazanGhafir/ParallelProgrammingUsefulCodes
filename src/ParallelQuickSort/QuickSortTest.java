@@ -14,12 +14,15 @@ public class QuickSortTest {
         int size = Integer.parseInt(JOptionPane.showInputDialog("Enter Array size:"));
         Integer[] items = new Integer[size]; // Array to sort.
         Integer[] copy = new Integer[size]; // Copy of array.
+        Integer[] copy2 = new Integer[size]; // Copy of array.
+
         Random rInt = new Random(); // For random number generation
 
         // Fill the array and copy with random Integers.
         for (int i = 0; i < items.length; i++) {
             items[i] = rInt.nextInt();
             copy[i] = items[i];
+            copy2[i] = items[i];
         }
         // Sort with utility method.
         long startTime = System.currentTimeMillis();
@@ -35,15 +38,25 @@ public class QuickSortTest {
             items[i] = copy[i];
         }
 
-        // Sort with quicksort.
+        // Sort with QuickSort2.
         startTime = System.currentTimeMillis();
-        ParallelQuickSort.sort(items);
+        QuickSort2.sort(items);
         System.out.println("QuickSort time is "
                 + (System.currentTimeMillis()
                 - startTime) + "ms");
         System.out.println("QuickSort successful (true/false): "
                 + verify(items));
-        display(items); // Display part of the array.
+        //display(items); // Display part of the array.
+
+        // Sort with ParallelQuickSort.
+        startTime = System.currentTimeMillis();
+        ParallelQuickSort.sort(items);
+        System.out.println("ParallelQuickSort time is "
+                + (System.currentTimeMillis()
+                - startTime) + "ms");
+        System.out.println("ParallelQuickSort successful (true/false): "
+                + verify(items));
+        //display(items); // Display part of the array.
     }
 
     /**

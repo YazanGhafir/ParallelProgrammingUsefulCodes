@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68423f8c-9078-4fbb-8e46-5cfa376da3b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBufferSecondAttempt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest$1Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/PCMainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/tests/ProducerConsumerMonitorBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/tests/ProducerConsumerMonitorBuffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/MonitorClassTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/MonitorClassTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/PCMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/PCMainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort$iRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort$iRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort$jRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort$jRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/QuickSort2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/QuickSort2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,124 +24,107 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40835267">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="9" column="23" selection-start-line="9" selection-end-line="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="98" selection-start-line="98" selection-end-line="98" />
-                  <folding>
-                    <element signature="e#2729#2730#0" expanded="true" />
-                    <element signature="e#2761#2762#0" expanded="true" />
-                    <element signature="e#3165#3166#0" expanded="true" />
-                    <element signature="e#3197#3198#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Consumer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Buffer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSort.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/PC.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-323">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/PC.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="36" selection-start-line="36" selection-end-line="36" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/tests/ProducersConsumersBlockingQueue.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="23" selection-start-line="9" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+              <folding>
+                <element signature="e#3088#3089#0" expanded="true" />
+                <element signature="e#3112#3113#0" expanded="true" />
+                <element signature="e#3525#3526#0" expanded="true" />
+                <element signature="e#3549#3550#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Buffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/PC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-323">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/PC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/ProducersConsumersBlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -222,9 +198,9 @@
         <option value="$PROJECT_DIR$/src/tests/ProducerConsumerMonitorBuffer.java" />
         <option value="$PROJECT_DIR$/src/tests/PCMainTest.java" />
         <option value="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java" />
         <option value="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java" />
         <option value="$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java" />
+        <option value="$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java" />
       </list>
     </option>
   </component>
@@ -279,7 +255,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565290512750" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565292343644" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../parallell programing examples project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -400,18 +376,18 @@
       <updated>1565124612693</updated>
       <workItem from="1565124616353" duration="548000" />
       <workItem from="1565167217514" duration="13687000" />
-      <workItem from="1565257043554" duration="19499000" />
+      <workItem from="1565257043554" duration="21108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33734000" />
+    <option name="totallyTimeSpent" value="35343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11134021" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11134021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -449,7 +425,7 @@
       <window_info anchor="right" id="Codota" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22542955" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11134021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -459,7 +435,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30464327" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30464327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32616082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -838,16 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProducerConsumer/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -871,15 +837,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        <state relative-caret-position="308">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        <state relative-caret-position="51">
+          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <folding>
+            <element signature="e#3088#3089#0" expanded="true" />
+            <element signature="e#3112#3113#0" expanded="true" />
+            <element signature="e#3525#3526#0" expanded="true" />
+            <element signature="e#3549#3550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

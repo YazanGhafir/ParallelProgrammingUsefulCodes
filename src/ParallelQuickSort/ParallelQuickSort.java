@@ -1,9 +1,9 @@
 package ParallelQuickSort;
 
 /**
- * Parallel Quick sort algorithm ************
+ ***** My own parallel Quick sort algorithm ************
  */
-public class ParallelQuickSort <T extends Comparable<T>> {
+public class ParallelQuickSort<T extends Comparable<T>> {
 
     /**
      * wrapper calls the recursive method quicksort
@@ -45,25 +45,38 @@ public class ParallelQuickSort <T extends Comparable<T>> {
 
             // make left < pivot and right > pivot
             int i = low, j = high;
+
+
             while (i <= j) {
 
-                iRunnable runnable1 = new iRunnable<T>(arr,i,pivot);
-                jRunnable runnable2 = new jRunnable<T>(arr,j,pivot);
+                if (Math.abs(i - j) > 1000) {
 
-                Thread worker1 = new Thread(runnable1);
-                Thread worker2 = new Thread(runnable2);
+                    iRunnable runnable1 = new iRunnable<T>(arr, i, pivot);
+                    jRunnable runnable2 = new jRunnable<T>(arr, j, pivot);
+                    Thread worker1 = new Thread(runnable1);
+                    Thread worker2 = new Thread(runnable2);
 
-                worker1.start();
-                worker2.start();
-                try {
-                    worker1.join();
-                    worker2.join();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    worker1.start();
+                    worker2.start();
+                    try {
+                        worker1.join();
+                        worker2.join();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+
+                    i = runnable1.getI();
+                    j = runnable2.getJ();
+
+                } else {
+                    while (arr[i].compareTo(pivot) < 0) {
+                        i++;
+                    }
+
+                    while (arr[j].compareTo(pivot) > 0) {
+                        j--;
+                    }
                 }
-
-                i = runnable1.getI();
-                j = runnable2.getJ();
 
                 if (i <= j) {
                     T temp = arr[i];
@@ -83,16 +96,20 @@ public class ParallelQuickSort <T extends Comparable<T>> {
         }
     }
 
-    private static class iRunnable <T extends Comparable<T>> implements Runnable {
+    private static class iRunnable<T extends Comparable<T>> implements Runnable {
 
-        private T[] arr;
         private static int i;
+        private T[] arr;
         private T pivot;
 
-        public iRunnable (T[] arr, int i, T pivot) {
+        public iRunnable(T[] arr, int i, T pivot) {
             this.arr = arr;
             this.i = i;
             this.pivot = pivot;
+        }
+
+        public static int getI() {
+            return i;
         }
 
         public void run() {
@@ -100,22 +117,22 @@ public class ParallelQuickSort <T extends Comparable<T>> {
                 i++;
             }
         }
-
-        public static int getI() {
-            return i;
-        }
     }
 
-    private static class jRunnable <T extends Comparable<T>> implements Runnable {
+    private static class jRunnable<T extends Comparable<T>> implements Runnable {
 
-        private T[] arr;
         private static int j;
+        private T[] arr;
         private T pivot;
 
-        public jRunnable (T[] arr, int j, T pivot) {
+        public jRunnable(T[] arr, int j, T pivot) {
             this.arr = arr;
             this.j = j;
             this.pivot = pivot;
+        }
+
+        public static int getJ() {
+            return j;
         }
 
         public void run() {
@@ -123,10 +140,8 @@ public class ParallelQuickSort <T extends Comparable<T>> {
                 j--;
             }
         }
-
-        public static int getJ() {
-            return j;
-        }
     }
+
 }
+
 
