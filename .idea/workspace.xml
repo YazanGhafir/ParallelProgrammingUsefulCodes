@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68423f8c-9078-4fbb-8e46-5cfa376da3b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ParallelQuickSort/DummyHeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParallelQuickSort/ParallelDummyHeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort$iRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort$iRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort$jRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort$jRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/ParallelQuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/QuickSort2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/QuickSort2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/QuickSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parallel programing codes/ParallelQuickSort/QuickSortTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,19 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/LMBoundedBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="23" selection-start-line="9" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+            <state relative-caret-position="85">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
                 <element signature="e#3088#3089#0" expanded="true" />
                 <element signature="e#3112#3113#0" expanded="true" />
@@ -95,19 +83,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Monitors/ProducerConsumerMonitor/PC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="40" column="30" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="30" />
+            <state relative-caret-position="252">
+              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,11 +94,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ProducersConsumersBlockingQueue.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelDummyHeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3674#3675#0" expanded="true" />
+                <element signature="e#3719#3720#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/DummyHeapSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,9 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Philosophers/Philosopher.java" />
-        <option value="$PROJECT_DIR$/src/Philosophers/SeatingTable.java" />
-        <option value="$PROJECT_DIR$/src/Philosophers/Table.java" />
         <option value="$PROJECT_DIR$/src/ProducerConsumer/Consumer.java" />
         <option value="$PROJECT_DIR$/src/ProducerConsumer/Item.java" />
         <option value="$PROJECT_DIR$/src/ProducerConsumer/PC.java" />
@@ -200,7 +193,10 @@
         <option value="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/ParallelQuickSort/QuickSort2.java" />
         <option value="$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java" />
+        <option value="$PROJECT_DIR$/src/ParallelQuickSort/ParallelDummyHeapSortNotGeneric.java" />
+        <option value="$PROJECT_DIR$/src/ParallelQuickSort/DummyHeapSort.java" />
         <option value="$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java" />
+        <option value="$PROJECT_DIR$/src/ParallelQuickSort/ParallelDummyHeapSort.java" />
       </list>
     </option>
   </component>
@@ -211,9 +207,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="954" />
-    <option name="width" value="972" />
-    <option name="height" value="1046" />
+    <option name="x" value="477" />
+    <option name="width" value="486" />
+    <option name="height" value="523" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -240,12 +236,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ParallelQuickSort" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ParallelProgrammingUsefulCodes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ParallelProgrammingUsefulCodes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProducerConsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -255,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565292343644" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565309292426" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../parallell programing examples project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -266,6 +256,7 @@
       <recent name="tests" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ParallelQuickSort" />
       <recent name="tests" />
     </key>
   </component>
@@ -376,18 +367,18 @@
       <updated>1565124612693</updated>
       <workItem from="1565124616353" duration="548000" />
       <workItem from="1565167217514" duration="13687000" />
-      <workItem from="1565257043554" duration="21108000" />
+      <workItem from="1565257043554" duration="29719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35343000" />
+    <option name="totallyTimeSpent" value="43954000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1513" height="1013" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.11134021" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -397,8 +388,8 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30464327" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32616082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36760125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32606438" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -410,7 +401,7 @@
       <window_info anchor="bottom" id="Statistic" order="12" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32842582" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3281412" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.15257733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -484,27 +475,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Philosophers/AsymmetricTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Philosophers/Dining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Philosophers/Philosopher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Philosophers/SeatingTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -842,10 +812,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelDummyHeapSortNotGeneric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#219#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelQuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
             <element signature="e#3088#3089#0" expanded="true" />
             <element signature="e#3112#3113#0" expanded="true" />
@@ -855,12 +845,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/QuickSortTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/DummyHeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="289">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParallelQuickSort/ParallelDummyHeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3674#3675#0" expanded="true" />
+            <element signature="e#3719#3720#0" expanded="true" />
           </folding>
         </state>
       </provider>

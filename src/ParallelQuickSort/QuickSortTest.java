@@ -1,5 +1,4 @@
 package ParallelQuickSort;
-
 import javax.swing.*;
 import java.util.Arrays;
 import java.util.Random;
@@ -14,7 +13,7 @@ public class QuickSortTest {
         int size = Integer.parseInt(JOptionPane.showInputDialog("Enter Array size:"));
         Integer[] items = new Integer[size]; // Array to sort.
         Integer[] copy = new Integer[size]; // Copy of array.
-        Integer[] copy2 = new Integer[size]; // Copy of array.
+
 
         Random rInt = new Random(); // For random number generation
 
@@ -22,7 +21,6 @@ public class QuickSortTest {
         for (int i = 0; i < items.length; i++) {
             items[i] = rInt.nextInt();
             copy[i] = items[i];
-            copy2[i] = items[i];
         }
         // Sort with utility method.
         long startTime = System.currentTimeMillis();
@@ -48,15 +46,49 @@ public class QuickSortTest {
                 + verify(items));
         //display(items); // Display part of the array.
 
+
         // Sort with ParallelQuickSort.
         startTime = System.currentTimeMillis();
-        ParallelQuickSort.sort(items);
+        //ParallelQuickSort.sort(items);
         System.out.println("ParallelQuickSort time is "
                 + (System.currentTimeMillis()
                 - startTime) + "ms");
         System.out.println("ParallelQuickSort successful (true/false): "
                 + verify(items));
         //display(items); // Display part of the array.
+
+
+        // Reload array items from array copy.
+        for (int i = 0; i < items.length; i++) {
+            items[i] = copy[i];
+        }
+
+        // Sort with ParallelDummyHeapSort.
+        startTime = System.currentTimeMillis();
+        DummyHeapSort.sort(items);
+        System.out.println("DummyHeapSort time is "
+                + (System.currentTimeMillis()
+                - startTime) + "ms");
+        System.out.println("DummyHeapSort successful (true/false): "
+                + verify(items));
+        //display(items); // Display part of the array.
+
+
+        // Reload array items from array copy.
+        for (int i = 0; i < items.length; i++) {
+            items[i] = copy[i];
+        }
+
+        // Sort with ParallelDummyHeapSort.
+        startTime = System.currentTimeMillis();
+        ParallelDummyHeapSort.sort(items);
+        System.out.println("ParallelDummyHeapSort time is "
+                + (System.currentTimeMillis()
+                - startTime) + "ms");
+        System.out.println("ParallelDummyHeapSort successful (true/false): "
+                + verify(items));
+        //display(items); // Display part of the array.
+
     }
 
     /**
