@@ -1,4 +1,4 @@
-package ParallelQuickSort;
+package Sorting;
 
 import sun.awt.windows.ThemeReader;
 

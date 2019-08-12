@@ -1,4 +1,4 @@
-package ParallelQuickSort;
+package Sorting;
 
 /**
  ***** My own parallel Quick sort algorithm ************

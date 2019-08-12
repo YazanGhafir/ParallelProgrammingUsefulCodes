@@ -1,4 +1,4 @@
-package ParallelQuickSort;
+package Sorting;
 
 /**
  * NOT working ****************

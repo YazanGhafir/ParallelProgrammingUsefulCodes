@@ -1,4 +1,4 @@
-package ParallelQuickSort;
+package Sorting;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
