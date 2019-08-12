@@ -33,7 +33,8 @@ status(S)->Ref = make_ref(),
   S ! {status,self(),Ref},
   receive {response, Ref, N} -> N end.
 
-stop(S)-> S ! {stop ,self(),0}.
+stop(S)-> S ! {stop ,self(),0},
+  ok.
 
 
 
