@@ -12,28 +12,36 @@
 %% API
 -export([start/0, factorial/2, status/1, update/2, stop/1]).
 
-%server's loop function 
+%server's loop function
 loop(State,Handler)->
   receive
 
+    %request handler for request-type messages
     {request, From, Ref, Request} ->
       case catch(Handler(State,Request)) of
 
+        %exception-handling for executing the handler function thus extending the server's robustness
         {'Exit', Reason} ->
           From ! {error, Ref, Reason},
           loop(State,Handler);
 
+        %the reply from the handler
         {reply, NewState, Result} ->
           From ! {response, Ref, Result},
           loop(NewState,Handler)
 
       end;
 
+    %handling a message to update the handler function for extending the flexibility
     {update, From, Ref, NewHandler} ->
       From ! {ok, Ref}, %ack
       loop(State, NewHandler);
 
-    {stop,_From,_Ref} -> ok
+    %handling a message to shut down the server
+    {stop,_From,_Ref} -> ok;
+
+    %handling any other junk message to not stay in the mail box
+    _ -> loop (State, Handler)
 
   end.
 
